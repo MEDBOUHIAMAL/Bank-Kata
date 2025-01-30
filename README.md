@@ -42,9 +42,16 @@ src/main/java/org/example/bankkata/
 ```
 ```plaintext
 src/test/java/org/example/bankkata/
-├── AccountTest.java         # Unit tests using Mockito
-├── BankAccountSteps.java    # Step definitions for Cucumber tests
-└── RunCucumberTest.java     # Runs acceptance tests
+-- AccountTest.java         # Unit tests using Mockito
+--BankAccountSteps.java    # Step definitions for Cucumber tests
+-- RunCucumberTest.java     # Runs acceptance tests
+
+```
+```plaintext
+src/test/resources/features/
+--bank_kata.feature          # define Cucumber scenarios using Gherkin syntax ,  test case requirements
+
+
 
 
 ```
